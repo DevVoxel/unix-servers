@@ -36,10 +36,12 @@ export default function Home() {
       <div className={styles.card}>
         <Link href="https://server.pro/server/24717313" target="_blank">
           <h2 className={inter.className}>ikgi.mcserver.us</h2>
+          <p className={inter.className}>
+            Access Donations & Server Page here.
+            <br />
+            Version 1.19.3
+          </p>
         </Link>
-      </div>
-      <div className={styles.code}>
-        <h3 className={inter.className}>Version 1.19.3</h3>
       </div>
 
       <div className={styles.card}>
